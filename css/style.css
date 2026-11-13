@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: aliceblue;
+}
+.cont-geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    gap: 20px;
+    height: 100%;
+    width: 60%;
+    margin-left: 50%;
+    margin-top: 3%;
+    transform: translate(-50%, -3%);
+}
