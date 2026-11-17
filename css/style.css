@@ -9,18 +9,162 @@ html, body {
 }
 
 body {
+    display: flex;
     background-color: aliceblue;
+    justify-content: center;
 }
 .cont-geral {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: blueviolet;
+    padding: 5px;
+    border: 2px solid;
     gap: 20px;
     height: 100%;
     width: 60%;
-    margin-left: 50%;
-    margin-top: 3%;
-    transform: translate(-50%, -3%);
+}
+
+.cabecalho {
+    width: 100%;
+    height: 6%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    background-color: rgb(214, 216, 219);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: larger;
+    background-color: beige;
+    border: 1px solid;
+    padding: 3px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+}
+
+.link {
+    display: flex;
+    border: 1px solid;
+    background-color: beige;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.btn-inicial {
+    font-size: medium;
+    background-color: beige;
+    border: 1px solid;
+    padding: 3px;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+    background-color: rgb(214, 216, 219);
+}
+.texte-m {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px dashed;
+    width: 50%;
+    gap: 10px;
+}
+.texte-m h2 {
+    font-size: 16px;
+    width: 85%;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.subtitulo {
+    font-size: 16px;
+    width: 95%;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.linha2 {
+    font-size: 16px;
+    width: 65%;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.btn-p {
+    font-size: medium;
+    font-weight: bold;
+    background-color: beige;
+    border: 1px solid;
+    padding: 8px;
+    text-align: center;
+    width: 25%;
+}
+
+.img {
+    background-color: rgb(214, 216, 219);
+    width: 50%;
+    border: 2px dashed;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+    height: 35%;
+    background-color: rgb(214, 216, 219);
+}
+
+.part1 {
+    font-size: 16px;
+    border: 1px solid;
+    padding: 5px;
+    border: 1px solid;
+    width: 70%;
+}
+
+.secao-prin {
+    font-size: 16px;
+    border: 1px solid;
+    padding: 5px;
+    border: 1px solid;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid;
+    background-color: rgb(214, 216, 219);
+}
+.card h2 {
+    font-size: 20px;
+    width: 100%;
+    border: 1px solid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }

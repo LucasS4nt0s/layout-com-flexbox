@@ -12,20 +12,18 @@
 <body>
     <div class="cont-geral">
 
-        <header class="cabeçalho">
+        <header class="cabecalho">
 
-            <div class="logo"> Logo </div>
+            <div class="logo"> LOGO </div>
 
-            <div class="links">
+            <nav class="links">
                 <a class="link" href="#">Link 1</a>
                 <a class="link" href="#">Link 2</a>
                 <a class="link" href="#">Link 3</a>
-                <a class="link" href="#">Link 3</a>
-            </div>
+                <a class="link" href="#">Link 4</a>
+            </nav>
 
-            <div class="btn-inicial">
-                <button type="button"> BOTÃO </button>
-            </div>
+            <button class="btn-inicial" type="button"> BOTÃO </button>
 
         </header>
 
@@ -33,26 +31,25 @@
 
             <section class="texte-m">
                 <h2> TITULO PRINCIPAL </h2>
-                <p> Subtitulo ou linha de texto 1 </p>
-                <p> Linha de texto 2 </p>
+                <p class="subtitulo"> Subtitulo ou linha de texto 1 </p>
+                <p class="linha2"> Linha de texto 2 </p>
 
-                <div class="btn-p">
-                    <button type="button"> BOTÃO CTA </button>
-                </div>
+                <button class="btn-p" type="button"> BOTÃO CTA </button>
             </section>
 
-            <section class="img">
-                [ ÁREA DA IMAGEM ]
-            </section>
+            <div class="img">
+                <h2>[ ÁREA DA IMAGEM ]</h2>
+            </div>
         </div>
 
         <main class="container">
-
-            <h2> SEÇÃO PRINCIPAL (3 CARDS) </h2>
+            
+            <div class="part1">
+            <h2 class="secao-prin"> SEÇÃO PRINCIPAL (3 CARDS) </h2>
 
             <div class="cards">
 
-                <section>
+                <section class="card">
                     <h2> [ ÁREA DA IMAGEM 1] </h2>
                     <p> Titulo Card 1 </p>
                     <p> Resumo curto </p>
@@ -62,7 +59,7 @@
                     </div>
                 </section>
 
-                <section>
+                <section class="card">
                     <h2> [ ÁREA DA IMAGEM 2] </h2>
                     <p> Titulo Card 2 </p>
                     <p> Resumo maior para testar alinhamento </p>
@@ -73,7 +70,7 @@
                     </div>
                 </section>
 
-                <section>
+                <section class="card">
                     <h2> [ ÁREA DA IMAGEM 3] </h2>
                     <p> Titulo Card 3 </p>
                     <p> Resumo curto </p>
@@ -83,6 +80,7 @@
                     </div>
                 </section>
             </div>
+            </div>
 
             <aside class="menu-lateral">
                 <h2> BARRA LATERAL </h2>
@@ -91,7 +89,9 @@
                 <p> WIDGET 1 (Destaque) </p>
             </aside>
 
-            <article class="menu-A">
+        </main>
+
+        <article class="menu-A">
                 <h2> TÍTULO CENTRALIZADO </h2>
                 <p> Bloco alinhado no centro horizontal e vertical </p>
 
@@ -99,8 +99,7 @@
                     <button class="btn-p" type="button"> AÇÃO 1 </button>
                     <button class="btn-p" type="button"> AÇÃO 2 </button>
                 </div>
-            </article>
-        </main>
+        </article>
 
         <footer class="barra-final">
 
